@@ -45,4 +45,4 @@ class Bot(GoslingAgent):
         if is_behind_ball:
             self.set_intent(goto(self.foe_goal.location))
             self.set_intent(short_shot(self.foe_goal.location))   
-            return
+            return 
